@@ -73,5 +73,10 @@ namespace Gestion_de_ecole
 
             }
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

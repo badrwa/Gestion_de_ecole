@@ -16,5 +16,11 @@ namespace Gestion_de_ecole
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Home().Show();
+            this.Hide();
+        }
     }
 }

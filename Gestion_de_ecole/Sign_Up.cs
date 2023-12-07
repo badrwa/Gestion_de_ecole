@@ -112,5 +112,10 @@ namespace Gestion_de_ecole
                 txtcp.PasswordChar = '*';
             }
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

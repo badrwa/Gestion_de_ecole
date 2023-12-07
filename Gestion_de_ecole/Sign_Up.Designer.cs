@@ -49,6 +49,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtfn = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +57,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -231,9 +233,9 @@
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(48, 305);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 25);
+            this.label4.Size = new System.Drawing.Size(86, 25);
             this.label4.TabIndex = 33;
-            this.label4.Text = "Birt Day";
+            this.label4.Text = "Birthday";
             // 
             // txtln
             // 
@@ -274,6 +276,19 @@
             this.label2.Size = new System.Drawing.Size(103, 25);
             this.label2.TabIndex = 29;
             this.label2.Text = "First Name";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label10.Location = new System.Drawing.Point(569, 7);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(38, 37);
+            this.label10.TabIndex = 48;
+            this.label10.Text = "X";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // Sign_Up
             // 
@@ -334,5 +349,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtfn;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label10;
     }
 }
